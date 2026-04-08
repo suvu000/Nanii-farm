@@ -1,0 +1,81 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nani Farm - Fresh Pineapples</title><style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #27ae60;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+</style></head><body><header>
+    <h1>Nani Farm 🍍</h1>
+    <p>Fresh & Natural Pineapples Direct from Farm</p>
+</header><section>
+    <h2>About Us</h2>
+    <p>Welcome to Nani Farm! We grow fresh, juicy pineapples at our home farm and supply them directly to customers.</p>
+</section><section>
+    <h2>Price Information</h2>
+    <div class="card">
+        <p><b>Big Pineapple:</b> ₹45 - ₹50 (depending on size & market)</p>
+        <p><b>Small Pineapple:</b> ₹25 - ₹35</p>
+        <p><i>Note: Prices may change based on season and availability.</i></p>
+    </div>
+</section><section>
+    <h2>Delivery Area</h2>
+    <div class="card">
+        <p>📍 Available only in:</p>
+        <ul>
+            <li>Missamari (PIN: 784506)</li>
+            <li>Rangapara (PIN: 784505)</li>
+            <li>Thelamara (PIN: 784149)</li>
+        </ul>
+    </div>
+</section><section>
+    <h2>Contact & Order</h2>
+    <div class="card">
+        <p>📞 Call / WhatsApp: <b>6900963778</b></p>
+        <br>
+        <button onclick="window.location.href='https://wa.me/916900963778'">
+            Order on WhatsApp
+        </button>
+    </div>
+</section><footer>
+    <p>© 2026 Nani Farm | Fresh from Nature</p>
+</footer></body>
+</html>
